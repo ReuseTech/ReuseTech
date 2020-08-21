@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reuse Tech</title>
+		<link rel = "stylesheet" href="css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "_css/header.css">
+		<link rel = "stylesheet" href = "_css/estilo.css">
+		<link rel = "stylesheet" href = "_css/table.css">
+		<link rel = "stylesheet" href = "_css/responsive.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+		</script>
+	</head>
+</head>
+
+<body>
+	<main>
+		<header>
+			<!--Cria um menu tipo dark, adiciona botão antes da posição lg-->
+			<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+				<img src="_imagens/reusetech.png" class="d-inline-block align-top" id="logo">
+				<!--Faz o titulo somente aparecer para tamanho md e sm-->
+				<a class="navbar-brand" href="">
+					<h1>Reuse Tech</h1>
+				</a>
+				</div>
+				<!--Botão que aparece depois dos links desaparecerem-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Alterna navegação">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!--Links de Navegação-->
+				<div class="collapse navbar-collapse" id="links">
+				  	<ul class="navbar-nav mr-auto" id="ul">
+					<!--Os Links são visiveis somente no tamnho lg e xl-->	
+						<li class="nav-item " >
+							<a class="nav-link" href="index.html">Página Principal</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="acoes.html">Ações</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contato.html">Contato</a>
+						</li>
+				  	</ul>
+				</div>
+
+			</nav>
+		</header>
+
+			<!-- Tabela dos participantes -->
+			<table id = "participantes" class = "container-sm">
+				<caption>Participantes</caption>
+				
+				<tr><td class="img"><img src = "_imagens/reusetech.png"></td><td><h1>Josiney de Souza </h1><p>Professor</p><li><a href = "http://lattes.cnpq.br/8518847575511308" target = "_blank">Curriculo Lattes</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/reusetech.png"></td><td><h1>Angela Ribeiro</h1><p>Professor</p><li><a href = "http://lattes.cnpq.br/2369352954642299" target = "_blank">Curriculo Lattes</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/anthony.png"></td><td><h1>Anthony Vinicius dos Santos Müller</h1><p>Aluno 2º Info A, responsável pelo site</p><li><a href = "http://lattes.cnpq.br/3988702877718773" target = "_blank">Curriculo Lattes</a></li><li> | </li><li><a href = "https://br.linkedin.com/">Linkedin</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/gabriel.jpg"></td><td><h1>Gabriel Eduardo de Souza</h1><p>Aluno 2° info B, responsável pelo site</p><li><a href = "http://lattes.cnpq.br/2871619912958213" target = "_blank">Curriculo Lattes</a></li><li> | </li><li><a href = "https://br.linkedin.com/">Linkedin</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/eduardo.jpg"></td><td><h1>Eduardo da Rocha Weber</h1><p>Aluno 2º Info A, resposável pelo site</p><p><li><a href = "http://lattes.cnpq.br/7895118191914781" target = "_blank">Curriculo Lattes</a></li><li> | </li><li><a href = "https://br.linkedin.com/">Linkedin</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/Luiz.jpg"></td><td><h1>Luiz Cirilo Tomasi Neto</h1><p>Aluno 2° Info A, responsável pelo site</p><li><a href = "http://lattes.cnpq.br/6368625706110056" target = "_blank">Curriculo Lattes</a></li><li> | <li><a href = "https://br.linkedin.com/">Linkedin</a></li></td></tr>
+				<tr><td class="img"><img src = "_imagens/ricardo.jpg"></td><td><h1>Gabriel Ricardo Ramos De Moraes</h1>><li><a href = "http://lattes.cnpq.br/2715499852557517" target = "_blank">Curriculo Lattes</a></li></td></tr>
+			</table>
+
+			<!-- Parte de baixo do site -->
+			<footer id = "rodape">
+				<li><a href = "http://twitter.com/" target = "_blank">Twitter</a></li>
+				<li> | </li>
+				<li><a href = "http://facebook.com" target = "_blank"> Facebook</a></li>
+				<li> | </li>
+				<li><a href = "https://www.instagram.com/projeto_reusetech?r=nametag" target = "_blank"> Instagram</a></li>
+			</footer>
+	<main>
+</body>

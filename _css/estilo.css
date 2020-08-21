@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+/*rodape*/
+footer {
+    border-top: 1px solid black ;
+    text-align: center;
+    padding: 10px;
+}
+footer li {/* forma da lista */
+    list-style: none;
+    display: inline;
+}
+
+footer a {/* decoração do texto */
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+footer a:hover {/* quando passar o muse em cima */
+    color: green;
+}
+
+
+article{
+    margin-top: 30px;
+}
+article p{/* organização do texto */
+    text-align: justify;
+    text-indent: 25px;
+}
+article #aborda{
+    margin: 30px 0 30px 0;
+    background-color: rgba(145, 145, 145, 0.226);
+    padding: 0;
+}
+article #aborda header{
+    text-align: center;
+    background-color: rgba(5, 116, 5, 0.863);
+    padding: 5px;
+    color: white;
+}
+article #txt_aborda{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 900px;
+    padding: 10px;
+}
+.container{
+    padding: 0;
+    margin-top: 10px;
+}
+#txt_topo{
+    padding: 5px 10px;
+}
