@@ -1,0 +1,24 @@
+.navbar {
+    padding: 5px 20px;
+}
+#ul{
+    margin: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 20px;
+}
+header #logo{
+    width: 150px;
+    margin-right: 20px;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    color: rgb(234, 253, 234);
+}
