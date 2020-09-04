@@ -1,5 +1,6 @@
 article{
     margin:auto;
+    padding: 5px;
 }
 .img{
     width: 60%;
@@ -8,11 +9,59 @@ article{
 img{
     width: 100%;
 }
+#video1{
+    margin: auto;
+    width: 60%;
+}#video1 iframe{
+    height:400px;
+    width: 100%;
+}
 h1{
     text-align: center;
+}
+@media(max-width:1150px){
+    #video1{
+        width: 70%;
+    }
+}
+@media(max-width:950px){
+    #video1{
+        width: 80%;
+    }
+}
+@media(max-width:850px){
+    #video1 iframe{
+        height: 360px;
+    }
+}
+@media(max-width:730px){
+    #video1{
+        width: 90%;
+    }
+}
+@media(max-width:600px){
+    #video1 iframe{
+        height: 280px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:500px){
+    #video1{
+        width: 95%;
+    }
 }
 @media(max-width:450px){
     h1{
         font-size: 25px;
+    }
+    #video1 iframe{
+        height: 230px;
+    }
+}
+@media(max-width:400px){
+    #video1 iframe{
+        height: 200px;
     }
 }
