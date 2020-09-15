@@ -30,3 +30,9 @@ table a {/* decoração do texto */
 table a:hover {/* quando passar o muse em cima */
     color: green;
 }
+table caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 3em;
+    margin-top: -20px;
+}
