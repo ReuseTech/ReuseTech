@@ -22,3 +22,14 @@ header #logo{
 header h1{
     color: rgb(255, 255, 255);
 }
+.navbar-expand-lg {
+    flex-direction: column;
+}
+.navbar-expand-lg .navbar-collapse {
+    width: 100%;
+}
+div.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
