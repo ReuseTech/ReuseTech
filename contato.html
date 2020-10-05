@@ -23,10 +23,15 @@
 		<header>
 			<!--Cria um menu tipo dark, adiciona botão antes da posição lg-->
 			<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
-				<img src="_imagens/reusetech.png" alt="Logo ReuseTech" class="d-inline-block align-top" id="logo">
-				<!--Faz o titulo somente aparecer para tamanho md e sm-->
-				<div class="navbar-brand">
-					<h1>ReuseTech</h1>
+				<div class="topo">
+					<img src="_imagens/reusetech.png" alt="Logo ReuseTech" class="d-inline-block " id="logo">
+					<!--Faz o titulo somente aparecer para tamanho md e sm-->
+					<div class="navbar-brand">
+						<h1>ReuseTech</h1>
+					</div>
+					<div class="d-none d-xl-block" id="pc">
+						<img src="_imagens/pc.png"  class="d-inline-block " id="logo">
+					</div>
 				</div>
 				<!--Botão que aparece depois dos links desaparecerem-->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Alterna navegação">
@@ -36,7 +41,7 @@
 				<div class="collapse navbar-collapse" id="links">
 				  	<ul class="navbar-nav mr-auto" id="ul">
 					<!--Os Links são visiveis somente no tamnho lg e xl-->	
-						<li class="nav-item " >
+						<li class="nav-item" >
 							<a class="nav-link" href="index.html">Página Principal</a>
 						</li>
 						<li class="nav-item">
@@ -47,7 +52,7 @@
 						</li>
 				  	</ul>
 				</div>
-
+				
 			</nav>
 		</header>
 
