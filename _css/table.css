@@ -5,8 +5,7 @@ table {
     margin-top: 30px;
 }
 table td{
-    border: 1px solid black;
-    padding: 5px;
+    border: 5px solid black;
 }
 table img{/*tamanho da imagem */
     width: 200px;
