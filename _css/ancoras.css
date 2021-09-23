@@ -1,0 +1,18 @@
+div#ancoras {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(201, 204, 218);
+}
+div#ancoras a {
+    color: rgba(5, 116, 5, 0.863);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a#topAncora {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    visibility: hidden;
+}
